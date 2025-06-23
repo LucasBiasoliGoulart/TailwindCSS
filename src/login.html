@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <title>TailwindCSS</title>
+</head>
+<body class="bg-gray-700">
+    <!--Menu-->
+    <nav class="w-full h-20 flex items-center justify-between p-2 absolute bg-gray-800">
+        <h3 class="text-gray-300 text-3xl">Hello<span class="text-white font-bold">World</span></h3>
+        <ul class="flex items-center justify-center">
+            <li class="m-2 hover:text-gray-300 transition-all duration-150 text-white"><a href="./index.html">Home</a></li>
+            <li class="m-2 hover:text-gray-300 transition-all duration-150 text-white"><a href="#">Sobre</a></li>
+            <li class="m-2 hover:text-gray-300 transition-all duration-150 text-white"><a href="#">Serviço</a></li>
+            <li class="m-2 hover:text-gray-300 transition-all duration-150 text-white"><a href="#">Contato</a></li>
+            <button class="bg-zinc-950 text-white w-28 p-2 rounded-xl cursor-pointer hover:bg-zinc-900 transition-all duration-150">Login</button>
+        </ul>
+    </nav>
+    <!--Login-->
+    <div class="w-full min-h-screen flex items-center justify-center">
+        <div class="w-2xl bg-white rounded-2xl p-3 shadow-2xl flex items-center justify-center flex-col">
+            <img src="./Img/perfil.png" alt="perfil" class="w-52">
+            <h1 class="text-gray-600 text-3xl mb-2.5 mt-2.5">Faça seu cadastro</h1>
+            <div class="m-2 w-full">
+                <h3 class="text-2xl">Email</h3>
+                <input type="email" placeholder="Digite seu email" class="bg-gray-200 w-full h-11 border-2 border-gray-400 outline-0 p-2 placeholder:text-black">
+            </div>
+             <div class="m-2 w-full">
+                <h3 class="text-2xl">Senha</h3>
+                <input type="password" placeholder="Digite seu password" class="bg-gray-200 w-full h-11 border-2 border-gray-400 outline-0 p-2 placeholder:text-black">
+            </div>
+            <div class="m-2 w-full flex items-center justify-between">
+                <label for="#" class="font-medium text-gray-700"><input type="checkbox">Lembre-se</label>
+                <p><a href="#" class="text-gray-700 font-medium hover:text-blue-500 transition-all duration-150">Esqueceu a senha?</a></p>
+            </div>
+            <button class="bg-zinc-950 text-white w-full h-14 p-2 cursor-pointer text-2xl hover:bg-zinc-900 transition-all duration-150">Cadastre-se</button>
+        </div>
+    </div>
+</body>
+</html>
