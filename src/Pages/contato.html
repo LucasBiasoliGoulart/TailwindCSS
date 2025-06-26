@@ -25,18 +25,19 @@
             <h1 class="text-gray-600 text-3xl mt-2.5">Contate Nós</h1>
             <div class="m-2 w-full">
                 <h3 class="font-medium">Nome completo</h3>
-                <input type="email" placeholder="Digite seu nome" class="bg-gray-100 w-full h-11 border-2 border-gray-300 outline-0 p-2 placeholder:text-black">
+                <input id="nome" placeholder="Digite seu nome" class="bg-gray-100 w-full h-11 border-2 border-gray-300 outline-0 p-2 placeholder:text-black">
             </div>
             <div class="m-2 w-full">
                 <h3 class="font-medium">Email</h3>
-                <input type="email" placeholder="Digite seu email" class="bg-gray-100 w-full h-11 border-2 border-gray-300 outline-0 p-2 placeholder:text-black">
+                <input id="email" type="email" placeholder="Digite seu email" class="bg-gray-100 w-full h-11 border-2 border-gray-300 outline-0 p-2 placeholder:text-black">
             </div>
             <div class="m-2 w-full">
                 <h3 class="font-medium">Texto</h3>
-                <textarea name="" id="" class="w-full h-56 outline-0 border-2 border-gray-300"></textarea>
+                <textarea name="" id="texto" class="w-full h-56 outline-0 border-2 border-gray-300"></textarea>
             </div>
-            <button class="bg-zinc-950 text-white w-full h-14 p-2 cursor-pointer font-medium hover:bg-zinc-900 transition-all duration-150">Enviar</button>
+            <button onclick="validarCampus()" class="bg-zinc-950 text-white w-full h-14 p-2 cursor-pointer font-medium hover:bg-zinc-900 transition-all duration-150">Enviar</button>
         </div>
     </div>
+    <script src="../script.js"></script>
 </body>
 </html>

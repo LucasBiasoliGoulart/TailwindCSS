@@ -2,6 +2,7 @@
 function validarCampos() {
     const emailInput = document.getElementById('email');
     const senhaInput = document.getElementById('senha');
+    const textoCampo = document.getElementById('texto');
     
     let emailValido = emailInput.value.includes('@');
     let senhaValida = senhaInput.value.length >= 6;
